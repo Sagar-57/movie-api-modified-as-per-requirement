@@ -11,8 +11,12 @@ class AdditionalInfo extends Component {
   componentDidMount = () => {
     const { id } = this.props;
 
-    if (!id) {
-      return;
+    
+    if(id%2==0){
+    console.log('error');
+    return;
+    }else{
+      
     }
 
     fetch(
