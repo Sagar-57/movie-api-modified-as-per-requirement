@@ -13,10 +13,11 @@ class AdditionalInfo extends Component {
 
     
     if(id%2==0){
-    console.log('error');
+      window.alert("na manobavalu debba tinnay nen chupetta ");
+    console.log('error it is Even number');
     return;
     }else{
-      
+
     }
 
     fetch(
