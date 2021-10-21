@@ -20,7 +20,9 @@ class Index extends Component {
 class MovieInfo extends Component {
 
   render() {
+    console.log(this.props.match);
     const {id} = this.props.match.params;
+    
     return (
       <div>
         <AdditionalInfo id={id} />
